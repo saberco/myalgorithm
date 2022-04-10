@@ -212,8 +212,6 @@ public:
 private:
     Node * _root = nullptr;
 };
-
-
 void test() {
 	BSTree <int> bst;
 	bst.insert(0);
@@ -232,9 +230,6 @@ void test() {
 	bst.erase(6);
 	bst.inorder();
 }
-
-
-
 
 int main(){
     test();
